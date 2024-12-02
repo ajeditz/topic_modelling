@@ -33,8 +33,9 @@ def uploaded_pdf_to_text(uploaded_pdf):
     return text
 
 # Example usage
-pdf_path = 'endsem.pdf'
+pdf_path = '2.pdf'
 pyqs= pdf_to_text(pdf_path)
-additional_instructions="Also give 3 most important questions"
-syllabus=pdf_to_text("ETR3C2DigitalElecronics.pdf")
-print(paperAnalyser(syllabus,pyqs,additional_instructions))
+# additional_instructions="Also give 3 most important questions"
+# syllabus=pdf_to_text("ETR3C2DigitalElecronics.pdf")
+# print(paperAnalyser(syllabus,pyqs,additional_instructions))
+print(pyqs)

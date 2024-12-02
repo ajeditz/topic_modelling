@@ -4,7 +4,7 @@ from analyser import paperAnalyser
 
 # Streamlit app interface
 def main():
-    st.set_page_config(page_title="Syllabus and PYQ Analyzer", layout="wide")
+    st.set_page_config(page_title="9P", layout="wide")
     # Center align the title
     st.markdown("<h1 style='text-align: center;'>9 Pointers</h1>", unsafe_allow_html=True)
 
@@ -36,7 +36,8 @@ def main():
                     pyqs_text += uploaded_pdf_to_text(pyq)  
                 analysis_result = paperAnalyser(syllabus_text, pyqs_text, additional_instructions)  # Analyze the paper
                 st.success("Analysis Complete!")
-                st.text_area("Analysis Result", analysis_result, height=300)
+            
+                st.write(analysis_result)
         else:
             st.warning("Please upload both the syllabus and PYQ PDFs before analyzing.")
 

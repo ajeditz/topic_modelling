@@ -32,6 +32,7 @@ Present Your Findings:
 
 Provide a ranked list of the most important topics to study, with a focus on the ones most likely to appear in the upcoming exam.
 Include suggestions for additional areas to focus on (if any) based on the trends observed.
+Use very simple and concise language 
 Example Prompt Execution:
 
 Syllabus Example: The syllabus for "Data Structures" includes topics like:
